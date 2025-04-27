@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KCC AUTO AND BEARING</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+<!-- Navbar -->
+<nav class="bg-blue-600 p-4 text-white">
+  <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-xl font-bold">KCC AUTO AND BEARING</h1>
+    <div class="space-x-4">
+      <a href="#home" class="hover:underline">Home</a>
+      <a href="#products" class="hover:underline">Products</a>
+      <a href="#about" class="hover:underline">About Us</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="py-16 text-center">
+  <h2 class="text-4xl font-bold mb-4">Welcome to KCC AUTO AND BEARING</h2>
+  <p class="text-lg">Your trusted Autorickshaw Parts Importer & Wholesaler</p>
+</section>
+
+<!-- Product List -->
+<section id="products" class="py-16 bg-white">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold mb-8 text-center">Our Products</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="border p-4 rounded shadow">Motor</div>
+      <div class="border p-4 rounded shadow">Controller</div>
+      <div class="border p-4 rounded shadow">Differential</div>
+      <div class="border p-4 rounded shadow">Bearing</div>
+      <div class="border p-4 rounded shadow">Rim</div>
+    </div>
+  </div>
+</section>
+
+<!-- About Us -->
+<section id="about" class="py-16">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">About Us</h2>
+    <p class="mb-2">KCC AUTO AND BEARING is a leading importer and wholesaler of Autorickshaw parts.</p>
+    <p class="mb-2">Address: হাজী হামিদা মার্কেট, নবাবপুর, ঢাকা</p>
+    <p>Phone: 01689211435, 01804274443</p>
+  </div>
+</section>
+
+<!-- Contact Form -->
+<section id="contact" class="py-16 bg-white">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold mb-8 text-center">Contact Us</h2>
+    <form onsubmit="event.preventDefault(); alert('Thank you for contacting us!');" class="max-w-xl mx-auto bg-gray-100 p-8 rounded shadow">
+      <div class="mb-4">
+        <label class="block mb-2">Name</label>
+        <input type="text" class="w-full p-2 border rounded" placeholder="Your Name" required>
+      </div>
+      <div class="mb-4">
+        <label class="block mb-2">Phone</label>
+        <input type="text" class="w-full p-2 border rounded" placeholder="Your Phone Number" required>
+      </div>
+      <div class="mb-4">
+        <label class="block mb-2">Message</label>
+        <textarea class="w-full p-2 border rounded" rows="4" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-blue-600 text-white p-4 text-center">
+  &copy; 2025 KCC AUTO AND BEARING. All rights reserved.
+</footer>
+
+</body>
+</html>
